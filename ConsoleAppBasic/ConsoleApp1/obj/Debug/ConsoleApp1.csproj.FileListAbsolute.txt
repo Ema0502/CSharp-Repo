@@ -1,0 +1,7 @@
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
