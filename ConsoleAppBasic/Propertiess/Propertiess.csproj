@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{05975AAD-DC37-4BAA-931D-D331F82F8F89}</ProjectGuid>
+    <ProjectGuid>{26D9AE78-2E90-49C1-865C-112D89161592}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
-    <AssemblyName>ConsoleApp1</AssemblyName>
+    <RootNamespace>Propertiess</RootNamespace>
+    <AssemblyName>Propertiess</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animales.cs" />
-    <Compile Include="Ballena.cs" />
-    <Compile Include="Caballo.cs" />
-    <Compile Include="Humano.cs" />
-    <Compile Include="IMamiferosTerrestres.cs" />
-    <Compile Include="Lagartija.cs" />
-    <Compile Include="Mamiferos.cs" />
+    <Compile Include="Empleado.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,0 +1,7 @@
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Propertiess\bin\Debug\Propertiess.exe.config
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Propertiess\bin\Debug\Propertiess.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Propertiess\bin\Debug\Propertiess.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Propertiess\obj\Debug\Propertiess.csproj.AssemblyReference.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Propertiess\obj\Debug\Propertiess.csproj.CoreCompileInputs.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Propertiess\obj\Debug\Propertiess.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Propertiess\obj\Debug\Propertiess.pdb
