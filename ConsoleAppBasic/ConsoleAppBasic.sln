@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practico2", "Practico2\Prac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Propertiess", "Propertiess\Propertiess.csproj", "{26D9AE78-2E90-49C1-865C-112D89161592}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genericos", "Genericos\Genericos.csproj", "{F42C1AD5-281C-48B2-A10E-2A3DB2CE1ACC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{26D9AE78-2E90-49C1-865C-112D89161592}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26D9AE78-2E90-49C1-865C-112D89161592}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26D9AE78-2E90-49C1-865C-112D89161592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42C1AD5-281C-48B2-A10E-2A3DB2CE1ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42C1AD5-281C-48B2-A10E-2A3DB2CE1ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42C1AD5-281C-48B2-A10E-2A3DB2CE1ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42C1AD5-281C-48B2-A10E-2A3DB2CE1ACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

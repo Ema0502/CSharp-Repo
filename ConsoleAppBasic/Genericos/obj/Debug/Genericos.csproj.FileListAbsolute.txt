@@ -1,0 +1,7 @@
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Genericos\bin\Debug\Genericos.exe.config
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Genericos\bin\Debug\Genericos.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Genericos\bin\Debug\Genericos.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Genericos\obj\Debug\Genericos.csproj.AssemblyReference.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Genericos\obj\Debug\Genericos.csproj.CoreCompileInputs.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Genericos\obj\Debug\Genericos.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Genericos\obj\Debug\Genericos.pdb
