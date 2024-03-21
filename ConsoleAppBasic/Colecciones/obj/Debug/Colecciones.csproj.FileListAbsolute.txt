@@ -1,0 +1,7 @@
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Colecciones\bin\Debug\Colecciones.exe.config
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Colecciones\bin\Debug\Colecciones.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Colecciones\bin\Debug\Colecciones.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Colecciones\obj\Debug\Colecciones.csproj.AssemblyReference.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Colecciones\obj\Debug\Colecciones.csproj.CoreCompileInputs.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Colecciones\obj\Debug\Colecciones.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Colecciones\obj\Debug\Colecciones.pdb
