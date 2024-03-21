@@ -46,6 +46,7 @@
     <Compile Include="AlmacenEmpleados.cs" />
     <Compile Include="Director.cs" />
     <Compile Include="Electricista.cs" />
+    <Compile Include="Estudiante.cs" />
     <Compile Include="IParaEmpleados.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
