@@ -1,0 +1,7 @@
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\DelegadosPredicadosLambdas\bin\Debug\DelegadosPredicadosLambdas.exe.config
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\DelegadosPredicadosLambdas\bin\Debug\DelegadosPredicadosLambdas.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\DelegadosPredicadosLambdas\bin\Debug\DelegadosPredicadosLambdas.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\DelegadosPredicadosLambdas\obj\Debug\DelegadosPredicadosLambdas.csproj.AssemblyReference.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\DelegadosPredicadosLambdas\obj\Debug\DelegadosPredicadosLambdas.csproj.CoreCompileInputs.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\DelegadosPredicadosLambdas\obj\Debug\DelegadosPredicadosLambdas.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\DelegadosPredicadosLambdas\obj\Debug\DelegadosPredicadosLambdas.pdb
