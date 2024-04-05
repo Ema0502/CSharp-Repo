@@ -12,6 +12,7 @@ namespace DelegadosPredicadosLambdas
         static void Main(string[] args)
         {
             //Delegate
+
             ExampleDelegate MyDelegate = new ExampleDelegate(Saludo.FnSaludo);
             MyDelegate();
             MyDelegate = new ExampleDelegate(Despedida.FnDespedida);
@@ -47,7 +48,16 @@ namespace DelegadosPredicadosLambdas
             bool respExiste = gente.Exists(MiPredPersonas);
             if (respExiste) Console.WriteLine("el messias existe");
             else Console.WriteLine("messi no existe, se rompe la realidad");
+
+            // Lambda
+
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            List<int> pairNumbers = numbers.FindAll(num => num % 2 == 0);
+            // foreach(int num in pairNumbers) Console.WriteLine(num);
+            pairNumbers.ForEach(num => Console.WriteLine(num));
         }
+
+
         //Fn
         static bool Pares(int num)
         {
