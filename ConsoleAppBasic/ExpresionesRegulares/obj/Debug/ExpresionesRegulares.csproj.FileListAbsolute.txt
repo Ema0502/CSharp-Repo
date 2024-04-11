@@ -1,0 +1,7 @@
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ExpresionesRegulares\bin\Debug\ExpresionesRegulares.exe.config
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ExpresionesRegulares\bin\Debug\ExpresionesRegulares.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ExpresionesRegulares\bin\Debug\ExpresionesRegulares.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ExpresionesRegulares\obj\Debug\ExpresionesRegulares.csproj.AssemblyReference.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ExpresionesRegulares\obj\Debug\ExpresionesRegulares.csproj.CoreCompileInputs.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ExpresionesRegulares\obj\Debug\ExpresionesRegulares.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ExpresionesRegulares\obj\Debug\ExpresionesRegulares.pdb
