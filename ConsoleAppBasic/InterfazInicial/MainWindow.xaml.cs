@@ -20,25 +20,31 @@ namespace InterfazInicial
         {
             InitializeComponent();
 
-            Grid gridBtn = new Grid();
-            this.Content = gridBtn;
-            Button btn3 = new Button();
-            btn3.Width = 166;
-            btn3.Height = 70;
-            gridBtn.Children.Add(btn3);
-            WrapPanel wrapPanelBtn = new WrapPanel();
-            btn3.Content = wrapPanelBtn;
+            //btn C# example
+            //Grid gridBtn = new Grid();
+            //this.Content = gridBtn;
+            //Button btn3 = new Button();
+            //btn3.Width = 166;
+            //btn3.Height = 70;
+            //gridBtn.Children.Add(btn3);
+            //WrapPanel wrapPanelBtn = new WrapPanel();
+            //btn3.Content = wrapPanelBtn;
 
-            TextBlock txtBlock1 = new TextBlock();
-            txtBlock1.Text = "txt 1";
-            txtBlock1.FontSize = 18;
-            wrapPanelBtn.Children.Add(txtBlock1);
+            //TextBlock txtBlock1 = new TextBlock();
+            //txtBlock1.Text = "txt 1";
+            //txtBlock1.FontSize = 18;
+            //wrapPanelBtn.Children.Add(txtBlock1);
 
-            TextBlock txtBlock2 = new TextBlock();
-            txtBlock2.Text = "txt 2";
-            txtBlock2.FontSize = 18;
-            wrapPanelBtn.Children.Add(txtBlock2);
+            //TextBlock txtBlock2 = new TextBlock();
+            //txtBlock2.Text = "txt 2";
+            //txtBlock2.FontSize = 18;
+            //wrapPanelBtn.Children.Add(txtBlock2);
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("click test for alert");
         }
     }
 }

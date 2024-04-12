@@ -7,13 +7,10 @@
         mc:Ignorable="d"
         Title="WPF GUI initial" Height="450" Width="850">
     <Grid>
-        <Button Height="60" Width="200" Margin="325,55,325,319" >
-            <WrapPanel>
-                <TextBlock>Text 1</TextBlock>
-                <TextBlock>Text 2</TextBlock>
-                <TextBlock>Text 3</TextBlock>
-            </WrapPanel>
-        </Button>
-        <Button Content="Btn Prop" HorizontalAlignment="Center" Margin="0,162,0,0" VerticalAlignment="Top" Height="66" Width="166" FontSize="24" Background="#FFFFAEAE"/>
+        <StackPanel>
+            <Button Width="150" Margin="15" HorizontalAlignment="Left">btn1</Button>
+            <Button Width="150" Margin="15" Click="Button_Click">btn2</Button>
+            <Button Width="150" Margin="15" HorizontalAlignment="Right">btn3</Button>
+        </StackPanel>
     </Grid>
 </Window>
