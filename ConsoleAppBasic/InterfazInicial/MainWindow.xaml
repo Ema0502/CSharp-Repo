@@ -7,10 +7,19 @@
         mc:Ignorable="d"
         Title="WPF GUI initial" Height="450" Width="850">
     <Grid>
-        <StackPanel>
-            <Button Width="150" Margin="15" HorizontalAlignment="Left">btn1</Button>
-            <Button Width="150" Margin="15" Click="Button_Click">btn2</Button>
-            <Button Width="150" Margin="15" HorizontalAlignment="Right">btn3</Button>
-        </StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Column="0" Grid.Row="0">btn 1</Button>
+        <Button Grid.Column="1" Grid.Row="1">btn 2</Button>
+        <Button Grid.ColumnSpan="2" Grid.Row="3">btn 3</Button>
     </Grid>
 </Window>
