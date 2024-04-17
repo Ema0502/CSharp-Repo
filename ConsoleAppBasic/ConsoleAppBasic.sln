@@ -19,7 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegadosPredicadosLambdas"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpresionesRegulares", "ExpresionesRegulares\ExpresionesRegulares.csproj", "{75D50D06-DF37-4025-942E-EEF0B858E941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfazInicial", "InterfazInicial\InterfazInicial.csproj", "{56587F6E-8777-4E04-BDF1-B96E2CCF77D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfazInicial", "InterfazInicial\InterfazInicial.csproj", "{56587F6E-8777-4E04-BDF1-B96E2CCF77D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding", "DataBinding\DataBinding.csproj", "{E72CF72D-EBB7-4CC4-9266-83BC02C8FEF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{56587F6E-8777-4E04-BDF1-B96E2CCF77D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56587F6E-8777-4E04-BDF1-B96E2CCF77D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56587F6E-8777-4E04-BDF1-B96E2CCF77D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72CF72D-EBB7-4CC4-9266-83BC02C8FEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72CF72D-EBB7-4CC4-9266-83BC02C8FEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72CF72D-EBB7-4CC4-9266-83BC02C8FEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72CF72D-EBB7-4CC4-9266-83BC02C8FEF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
