@@ -42,6 +42,16 @@ namespace InterfazInicial
 
         }
 
+        // my property
+        public int myProperty
+        {
+            get => (int)GetValue(myDependencyProperty);
+            set => SetValue(myDependencyProperty, value);
+        }
+        //my Dependecy property
+        public static readonly DependencyProperty myDependencyProperty = DependencyProperty.Register("myProperty", typeof(int), typeof(MainWindow), new PropertyMetadata(0));
+
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("click test for alert");
