@@ -1,0 +1,49 @@
+﻿<Window x:Class="RadioBtn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadioBtn"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
+            <TextBlock FontSize="30" TextAlignment="Center" Foreground="BlueViolet">Semaforo
+                <TextBlock.Effect>
+                    <DropShadowEffect ShadowDepth="4" Direction="330" Color="Black" Opacity="0.5" BlurRadius="4"/>
+                </TextBlock.Effect></TextBlock>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <RadioButton Margin="20 60 10 40" Click="RadioButton_Red">
+                        <TextBlock Text="Rojo" Foreground="Red"></TextBlock>
+                    </RadioButton>
+                    <RadioButton Margin="20 40 10 40" Click="RadioButton_Yellow">
+                        <TextBlock Text="Amarillo" Foreground="Yellow"></TextBlock>
+                    </RadioButton>
+                    <RadioButton Margin="20 40 10 40" Click="RadioButton_Green">
+                        <TextBlock Text="Verde" Foreground="Green"></TextBlock>
+                    </RadioButton>
+                </StackPanel>
+                <Grid Grid.Column="1">
+                    <Image Source="D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\RadioBtn\21237.png" Stretch="Uniform" Margin="0 20 30 20"></Image>
+                    <Ellipse Fill="Red" Margin="152,38,182,309" Visibility="Hidden" Name="eRojo"/>
+                    <Ellipse Fill="Yellow" Margin="152,142,182,205" Visibility="Hidden" Name="eAmarillo"/>
+                    <Ellipse Fill="Green" Margin="152,241,182,106" Visibility="Hidden" Name="eVerde"/>
+                </Grid>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>
