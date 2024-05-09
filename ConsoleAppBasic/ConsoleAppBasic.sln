@@ -23,7 +23,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfazInicial", "Interfaz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBinding", "DataBinding\DataBinding.csproj", "{E72CF72D-EBB7-4CC4-9266-83BC02C8FEF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INotifyPropertyC", "INotifyPropertyC\INotifyPropertyC.csproj", "{8CFA35FD-6837-4FFA-9CBF-1D0CA383F863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "INotifyPropertyC", "INotifyPropertyC\INotifyPropertyC.csproj", "{8CFA35FD-6837-4FFA-9CBF-1D0CA383F863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox", "ListBox\ListBox.csproj", "{0367A8B3-DF9C-4C16-8041-11172B24BA27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBoxCheckBox", "ComboBoxCheckBox\ComboBoxCheckBox.csproj", "{057C1046-3F75-47C8-A5DF-8EF43FBF71F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioBtn", "RadioBtn\RadioBtn.csproj", "{610713B9-C59D-496F-A562-01440F82F7C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConexionGestionPedidos", "ConexionGestionPedidos\ConexionGestionPedidos.csproj", "{3FFB6F31-7582-4E47-8394-24733038D004}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +83,22 @@ Global
 		{8CFA35FD-6837-4FFA-9CBF-1D0CA383F863}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CFA35FD-6837-4FFA-9CBF-1D0CA383F863}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CFA35FD-6837-4FFA-9CBF-1D0CA383F863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0367A8B3-DF9C-4C16-8041-11172B24BA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0367A8B3-DF9C-4C16-8041-11172B24BA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0367A8B3-DF9C-4C16-8041-11172B24BA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0367A8B3-DF9C-4C16-8041-11172B24BA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{057C1046-3F75-47C8-A5DF-8EF43FBF71F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057C1046-3F75-47C8-A5DF-8EF43FBF71F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057C1046-3F75-47C8-A5DF-8EF43FBF71F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057C1046-3F75-47C8-A5DF-8EF43FBF71F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{610713B9-C59D-496F-A562-01440F82F7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610713B9-C59D-496F-A562-01440F82F7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610713B9-C59D-496F-A562-01440F82F7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610713B9-C59D-496F-A562-01440F82F7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFB6F31-7582-4E47-8394-24733038D004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFB6F31-7582-4E47-8394-24733038D004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFB6F31-7582-4E47-8394-24733038D004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFB6F31-7582-4E47-8394-24733038D004}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

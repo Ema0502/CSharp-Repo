@@ -46,15 +46,40 @@
     <Compile Include="Animales.cs" />
     <Compile Include="Ballena.cs" />
     <Compile Include="Caballo.cs" />
+    <Compile Include="dbtestDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbtestDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Humano.cs" />
     <Compile Include="IMamiferosTerrestres.cs" />
     <Compile Include="Lagartija.cs" />
     <Compile Include="Mamiferos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="dbtestDataSet.xsc">
+      <DependentUpon>dbtestDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbtestDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbtestDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbtestDataSet.xss">
+      <DependentUpon>dbtestDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
