@@ -12,7 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+//cadena de conexion
 using System.Configuration;
+// Representa una conexión a una base de datos
+using System.Data.SqlClient;
 
 namespace ConexionGestionPedidos
 {
@@ -26,7 +29,21 @@ namespace ConexionGestionPedidos
             InitializeComponent();
 
             //cadena de conexion, para conectar con el origen de datos
-            string miConexion = ConfigurationManager.ConnectionStrings["ConexionGestionPedidos.Properties.Settings.GestionPedidosConnectionString"].ConnectionString;
+            string myConnection = ConfigurationManager.ConnectionStrings["ConexionGestionPedidos.Properties.Settings.GestionPedidosConnectionString"].ConnectionString;
+
+            //consultas sql directas
+            //SELECT * FROM cliente
+            //SELECT * FROM cliente INNER JOIN pedido ON cliente.Id = pedido.codCliente WHERE poblacion='BARCELONA';
+
+            // se crea y se instancia la clase, se aclara que se haran consultas a la base de datos
+            SqlConnection sqlConnection = new SqlConnection(myConnection);
+
+        }
+
+        private void showClients()
+        {
+            string consultas = "SELECT * FROM CLIENTE";
+
         }
     }
 }
