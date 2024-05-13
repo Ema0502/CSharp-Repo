@@ -90,7 +90,7 @@ namespace ConexionGestionPedidos
         private void MuestraTodosPedidos()
         {
             //consulta de campo nuevo calculado
-            string consulta = "SELECT CONCAT(codCliente, ' ', fechaPedido, ' ', formaPago) AS INFOCOMPLETA FROM PEDIDO";
+            string consulta = "SELECT *, CONCAT(codCliente, ' ', fechaPedido, ' ', formaPago) AS INFOCOMPLETA FROM PEDIDO";
 
             SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
             using (miAdaptadorSql)
@@ -109,6 +109,21 @@ namespace ConexionGestionPedidos
         private void listaClientes_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
                 MuestraPedidos();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //MessageBox.Show(todosPedidos.SelectedValue.ToString());
+            string consulta = "DELETE FROM PEDIDO WHERE ID = @PEDIDOID";
+
+            SqlCommand miSqlCommand = new SqlCommand(consulta, miConexionSql);
+            miConexionSql.Open();
+            //especifica el parametro y de donde viene
+            miSqlCommand.Parameters.AddWithValue("@PEDIDOID", todosPedidos.SelectedValue);
+            //ejecuta consulta de accion delete
+            miSqlCommand.ExecuteNonQuery();
+            miConexionSql.Close();
+            MuestraTodosPedidos();
         }
     }
 }
