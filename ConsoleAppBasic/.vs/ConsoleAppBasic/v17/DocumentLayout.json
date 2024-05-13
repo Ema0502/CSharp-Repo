@@ -11,10 +11,10 @@
       "RelativeMoniker": "D:0:0:{3FFB6F31-7582-4E47-8394-24733038D004}|ConexionGestionPedidos\\ConexionGestionPedidos.csproj|solutionrelative:conexiongestionpedidos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_R2DQE0I/GestionPedidos/sa/SqlTable/dbo.cliente.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_R2DQE0I/GestionPedidos/sa/SqlTable/dbo.pedido.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_R2DQE0I/GestionPedidos/sa/SqlTable/dbo.pedido.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_R2DQE0I/GestionPedidos/sa/SqlTable/dbo.cliente.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,20 +37,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "dbo.pedido [Datos]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_R2DQE0I/GestionPedidos/sa/SqlTable/dbo.pedido.sql",
-              "ToolTip": "dbo.pedido [Datos]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-09T15:38:18.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "dbo.cliente [Datos]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_R2DQE0I/GestionPedidos/sa/SqlTable/dbo.cliente.sql",
               "ToolTip": "dbo.cliente [Datos]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-09T15:33:28.31Z"
+              "WhenOpened": "2024-05-10T12:14:30.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.pedido [Datos]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_R2DQE0I/GestionPedidos/sa/SqlTable/dbo.pedido.sql",
+              "ToolTip": "dbo.pedido [Datos]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-10T12:13:11.13Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,7 +63,8 @@
               "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\ConexionGestionPedidos\\MainWindow.xaml",
               "RelativeToolTip": "ConexionGestionPedidos\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-07T23:17:34.685Z"
+              "WhenOpened": "2024-05-07T23:17:34.685Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -71,7 +74,7 @@
               "RelativeDocumentMoniker": "ConexionGestionPedidos\\MainWindow.xaml.cs",
               "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\ConexionGestionPedidos\\MainWindow.xaml.cs",
               "RelativeToolTip": "ConexionGestionPedidos\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwDIAAAAAAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAADwv1wAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T23:17:34.264Z",
               "EditorCaption": ""

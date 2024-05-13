@@ -26,28 +26,28 @@ namespace ConexionGestionPedidos
     /// </summary>
     public partial class MainWindow : Window
     {
-        SqlConnection sqlConexion;
+        SqlConnection miConexionSql;
+
         public MainWindow()
         {
             InitializeComponent();
 
             //cadena de conexion, para conectar con el origen de datos
-            string myConnection = ConfigurationManager.ConnectionStrings["ConexionGestionPedidos.Properties.Settings.GestionPedidosConnectionString"].ConnectionString;
+            string miConexion = ConfigurationManager.ConnectionStrings["ConexionGestionPedidos.Properties.Settings.GestionPedidosConnectionString"].ConnectionString;
 
-            //consultas sql directas
             //SELECT * FROM cliente
             //SELECT * FROM cliente INNER JOIN pedido ON cliente.Id = pedido.codCliente WHERE poblacion='BARCELONA';
 
-            // se crea y se instancia la clase, se aclara que se haran consultas a la base de datos
-            sqlConexion = new SqlConnection(myConnection);
-            muestraClientes();
+            //hara consultas a la base de datos
+            miConexionSql = new SqlConnection(miConexion);
+            MuestraClientes();
         }
 
-        private void muestraClientes()
+        private void MuestraClientes()
         {
-            string consultas = "SELECT * FROM CLIENTE";
+            string consulta = "SELECT * FROM CLIENTE";
             //adapta la informarcion de la db a C#
-            SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consultas, sqlConexion);
+            SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
 
             using (miAdaptadorSql)
             {
@@ -57,10 +57,39 @@ namespace ConexionGestionPedidos
                 //campo por mostrar en listbox
                 listaClientes.DisplayMemberPath = "nombre";
                 //campo clave
-                listaClientes.SelectedValuePath = "id";
+                listaClientes.SelectedValuePath = "Id";
                 //aclarar origen de datos
                 listaClientes.ItemsSource = clientesTabla.DefaultView;
             }
+        }
+
+        private void MuestraPedidos()
+        {
+            string consulta = "SELECT * FROM PEDIDO P INNER JOIN CLIENTE C ON C.ID=P.codCliente" + 
+                " WHERE C.ID=@ClienteId";
+
+            SqlCommand sqlComando = new SqlCommand(consulta, miConexionSql);
+
+            SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(sqlComando);
+
+            using (miAdaptadorSql)
+            {
+                sqlComando.Parameters.AddWithValue("@ClienteId", listaClientes.SelectedValue);
+
+                DataTable pedidosTabla = new DataTable();
+
+                miAdaptadorSql.Fill(pedidosTabla);
+
+                pedidosCliente.DisplayMemberPath = "fechaPedido";
+                pedidosCliente.SelectedValuePath = "Id";
+                pedidosCliente.ItemsSource = pedidosTabla.DefaultView;
+            }
+        }
+
+
+        private void listaClientes_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+                MuestraPedidos();
         }
     }
 }
