@@ -41,6 +41,7 @@ namespace ConexionGestionPedidos
             //hara consultas a la base de datos
             miConexionSql = new SqlConnection(miConexion);
             MuestraClientes();
+            MuestraTodosPedidos();
         }
 
         private void MuestraClientes()
@@ -83,6 +84,24 @@ namespace ConexionGestionPedidos
                 pedidosCliente.DisplayMemberPath = "fechaPedido";
                 pedidosCliente.SelectedValuePath = "Id";
                 pedidosCliente.ItemsSource = pedidosTabla.DefaultView;
+            }
+        }
+
+        private void MuestraTodosPedidos()
+        {
+            //consulta de campo nuevo calculado
+            string consulta = "SELECT CONCAT(codCliente, ' ', fechaPedido, ' ', formaPago) AS INFOCOMPLETA FROM PEDIDO";
+
+            SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
+            using (miAdaptadorSql)
+            {
+                DataTable pedidosTabla = new DataTable();
+
+                miAdaptadorSql.Fill(pedidosTabla);
+
+                todosPedidos.DisplayMemberPath = "INFOCOMPLETA";
+                todosPedidos.SelectedValuePath = "Id";
+                todosPedidos.ItemsSource = pedidosTabla.DefaultView;
             }
         }
 

@@ -7,11 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Clientes" HorizontalAlignment="Left" Margin="134,37,0,0" VerticalAlignment="Top" Height="47" Width="103" FontSize="20" RenderTransformOrigin="-1.462,0.704"/>
-        <ListBox Name="listaClientes" Margin="58,84,486,42" SelectionChanged="listaClientes_SelectionChanged"/>
+        <Label Content="Clientes" HorizontalAlignment="Left" Margin="58,37,0,0" VerticalAlignment="Top" Height="47" Width="102" FontSize="20" RenderTransformOrigin="-1.462,0.704"/>
+        <ListBox Name="listaClientes" Margin="14,84,596,111" SelectionChanged="listaClientes_SelectionChanged"/>
 
-        <Label Content="Pedidos" HorizontalAlignment="Left" Margin="519,37,0,0" VerticalAlignment="Top" Height="47" Width="90" FontSize="20"/>
-        <ListBox Name="pedidosCliente" Margin="444,84,123,42"/>
+        <Label Content="Pedidos" HorizontalAlignment="Left" Margin="286,37,0,0" VerticalAlignment="Top" Height="47" Width="90" FontSize="20"/>
+        <ListBox Name="pedidosCliente" Margin="253,84,391,111"/>
+        <ListBox Name="todosPedidos" Margin="459,84,21,40"/>
 
 
     </Grid>
