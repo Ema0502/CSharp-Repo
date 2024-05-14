@@ -5,15 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ConexionGestionPedidos"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="900">
     <Grid>
-        <Label Content="Clientes" HorizontalAlignment="Left" Margin="58,37,0,0" VerticalAlignment="Top" Height="47" Width="102" FontSize="20" RenderTransformOrigin="-1.462,0.704"/>
-        <ListBox Name="listaClientes" Margin="14,84,596,111" SelectionChanged="listaClientes_SelectionChanged"/>
+        <Label Content="Clientes" HorizontalAlignment="Left" Margin="82,37,0,0" VerticalAlignment="Top" Height="47" Width="102" FontSize="20" RenderTransformOrigin="-1.462,0.704"/>
+        <ListBox Name="listaClientes" Margin="54,89,688,124" MouseDoubleClick="listaClientes_MouseDoubleClick"/>
 
-        <Label Content="Pedidos" HorizontalAlignment="Left" Margin="286,37,0,0" VerticalAlignment="Top" Height="47" Width="90" FontSize="20"/>
-        <ListBox Name="pedidosCliente" Margin="253,84,391,111"/>
-        <ListBox Name="todosPedidos" Margin="459,84,21,40"/>
-        <Button Content="Borrar" HorizontalAlignment="Left" Margin="552,43,0,0" VerticalAlignment="Top" Height="26" Width="134" Click="Button_Click"/>
+        <Label Content="Pedidos" HorizontalAlignment="Left" Margin="363,37,0,0" VerticalAlignment="Top" Height="47" Width="90" FontSize="20"/>
+        <ListBox Name="pedidosCliente" Margin="331,89,415,124"/>
+        <ListBox Name="todosPedidos" Margin="620,84,86,38"/>
+        <Button Content="Borrar" HorizontalAlignment="Left" Margin="650,43,0,0" VerticalAlignment="Top" Height="26" Width="134" Click="Button_Click" Background="#FFC8FEFF" BorderBrush="#FF5A99FF"/>
+        <Button Content="Agregar Cliente" HorizontalAlignment="Left" Margin="36,319,0,0" VerticalAlignment="Top" Height="44" Width="87" Click="Button_Click_1" Background="#FFC8FEFF" BorderBrush="#FF5A99FF"/>
+        <Button Content="Borrar Cliente" HorizontalAlignment="Left" Margin="145,319,0,0" VerticalAlignment="Top" Height="44" Width="85" BorderBrush="#FF5A99FF" Background="#FFFF9898" Click="Button_Click_2"/>
+        <TextBox Name="insertaCliente" HorizontalAlignment="Left" Margin="36,380,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="194" Height="31"/>
 
 
     </Grid>

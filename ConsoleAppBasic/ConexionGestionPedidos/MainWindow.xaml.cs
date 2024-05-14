@@ -124,9 +124,10 @@ namespace ConexionGestionPedidos
         }
 
 
-        private void listaClientes_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        
+        private void listaClientes_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-                MuestraPedidos();
+            MuestraPedidos();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -144,10 +145,58 @@ namespace ConexionGestionPedidos
                 miSqlCommand.ExecuteNonQuery();
                 miConexionSql.Close();
                 MuestraTodosPedidos();
+                MessageBox.Show("Pedido eliminado correctamente");
             } catch (Exception error)
             {
                 MessageBox.Show(error.ToString());
             }
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                string consulta = "INSERT INTO CLIENTE (nombre) VALUES (@nombre)";
+
+                SqlCommand miSqlCommand = new SqlCommand(consulta, miConexionSql);
+                miConexionSql.Open();
+                //especifica el parametro y de donde viene
+                miSqlCommand.Parameters.AddWithValue("@nombre", insertaCliente.Text);
+
+                miSqlCommand.ExecuteNonQuery();
+                miConexionSql.Close();
+                MuestraClientes();
+                MessageBox.Show("Cliente agregado correctamente");
+                insertaCliente.Text = "";
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.ToString());
+            }
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                //MessageBox.Show(todosPedidos.SelectedValue.ToString());
+                string consulta = "DELETE FROM CLIENTE WHERE ID = @CLIENTEID";
+
+                SqlCommand miSqlCommand = new SqlCommand(consulta, miConexionSql);
+                miConexionSql.Open();
+                //especifica el parametro y de donde viene
+                miSqlCommand.Parameters.AddWithValue("@CLIENTEID", listaClientes.SelectedValue);
+                //ejecuta consulta de accion delete
+                miSqlCommand.ExecuteNonQuery();
+                miConexionSql.Close();
+                MuestraClientes();
+                MessageBox.Show("Cliente eliminado correctamente");
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.ToString());
+            }
+        }
+        
     }
 }
