@@ -13,3 +13,5 @@ D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ConexionGestionPedid
 D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ConexionGestionPedidos\obj\Debug\ConexionGestionPedidos.csproj.CoreCompileInputs.cache
 D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ConexionGestionPedidos\obj\Debug\ConexionGestionPedidos.exe
 D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ConexionGestionPedidos\obj\Debug\ConexionGestionPedidos.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ConexionGestionPedidos\obj\Debug\ActualizarCliente.g.cs
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ConexionGestionPedidos\obj\Debug\ActualizarCliente.baml

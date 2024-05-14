@@ -5,18 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ConexionGestionPedidos"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="900">
+        Title="MainWindow" Height="500" Width="900">
     <Grid>
-        <Label Content="Clientes" HorizontalAlignment="Left" Margin="82,37,0,0" VerticalAlignment="Top" Height="47" Width="102" FontSize="20" RenderTransformOrigin="-1.462,0.704"/>
-        <ListBox Name="listaClientes" Margin="54,89,688,124" MouseDoubleClick="listaClientes_MouseDoubleClick"/>
+        <Label Content="Clientes" HorizontalAlignment="Left" Margin="54,42,0,0" VerticalAlignment="Top" Height="47" Width="102" FontSize="20" RenderTransformOrigin="-1.462,0.704"/>
+        <ListBox Name="listaClientes" Margin="54,89,688,137" MouseDoubleClick="listaClientes_MouseDoubleClick"/>
 
-        <Label Content="Pedidos" HorizontalAlignment="Left" Margin="363,37,0,0" VerticalAlignment="Top" Height="47" Width="90" FontSize="20"/>
-        <ListBox Name="pedidosCliente" Margin="331,89,415,124"/>
-        <ListBox Name="todosPedidos" Margin="620,84,86,38"/>
+        <Label Content="Pedidos" HorizontalAlignment="Center" Margin="0,42,0,0" VerticalAlignment="Top" Height="47" Width="90" FontSize="20"/>
+        <ListBox Name="pedidosCliente" Margin="373,89,373,38"/>
+        <ListBox Name="todosPedidos" Margin="583,84,60,38"/>
         <Button Content="Borrar" HorizontalAlignment="Left" Margin="650,43,0,0" VerticalAlignment="Top" Height="26" Width="134" Click="Button_Click" Background="#FFC8FEFF" BorderBrush="#FF5A99FF"/>
-        <Button Content="Agregar Cliente" HorizontalAlignment="Left" Margin="36,319,0,0" VerticalAlignment="Top" Height="44" Width="87" Click="Button_Click_1" Background="#FFC8FEFF" BorderBrush="#FF5A99FF"/>
-        <Button Content="Borrar Cliente" HorizontalAlignment="Left" Margin="145,319,0,0" VerticalAlignment="Top" Height="44" Width="85" BorderBrush="#FF5A99FF" Background="#FFFF9898" Click="Button_Click_2"/>
-        <TextBox Name="insertaCliente" HorizontalAlignment="Left" Margin="36,380,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="194" Height="31"/>
+        <Button Content="Agregar Cliente" HorizontalAlignment="Left" Margin="82,366,0,0" VerticalAlignment="Top" Height="44" Width="102" Click="Button_Click_1" Background="#FFC8FEFF" BorderBrush="#FF5A99FF"/>
+        <Button Content="Borrar Cliente" HorizontalAlignment="Left" Margin="239,303,0,0" VerticalAlignment="Top" Height="44" Width="101" BorderBrush="#FF5A99FF" Background="#FFFF9898" Click="Button_Click_2"/>
+        <TextBox Name="insertaCliente" HorizontalAlignment="Left" Margin="54,428,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="158" Height="31"/>
+        <Button Content="Actualizar Cliente" HorizontalAlignment="Left" Margin="239,218,0,0" VerticalAlignment="Top" Height="44" Width="101" Background="#FFB6FFCB" BorderBrush="#FF5A99FF" Click="Button_Click_3"/>
 
 
     </Grid>
