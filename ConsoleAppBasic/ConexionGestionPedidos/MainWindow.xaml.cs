@@ -46,62 +46,80 @@ namespace ConexionGestionPedidos
 
         private void MuestraClientes()
         {
-            string consulta = "SELECT * FROM CLIENTE";
-            //adapta la informarcion de la db a C#
-            SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
-
-            using (miAdaptadorSql)
+            try
             {
-                DataTable clientesTabla = new DataTable();
+                string consulta = "SELECT * FROM CLIENTE";
+                //adapta la informarcion de la db a C#
+                SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
 
-                miAdaptadorSql.Fill(clientesTabla);
-                //campo por mostrar en listbox
-                listaClientes.DisplayMemberPath = "nombre";
-                //campo clave
-                listaClientes.SelectedValuePath = "Id";
-                //aclarar origen de datos
-                listaClientes.ItemsSource = clientesTabla.DefaultView;
+                using (miAdaptadorSql)
+                {
+                    DataTable clientesTabla = new DataTable();
+
+                    miAdaptadorSql.Fill(clientesTabla);
+                    //campo por mostrar en listbox
+                    listaClientes.DisplayMemberPath = "nombre";
+                    //campo clave
+                    listaClientes.SelectedValuePath = "Id";
+                    //aclarar origen de datos
+                    listaClientes.ItemsSource = clientesTabla.DefaultView;
+                }
+            } catch (Exception error)
+            {
+                MessageBox.Show(error.ToString());
             }
         }
 
         private void MuestraPedidos()
         {
-            string consulta = "SELECT * FROM PEDIDO P INNER JOIN CLIENTE C ON C.ID=P.codCliente" + 
-                " WHERE C.ID=@ClienteId";
-
-            SqlCommand sqlComando = new SqlCommand(consulta, miConexionSql);
-
-            SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(sqlComando);
-
-            using (miAdaptadorSql)
+            try
             {
-                sqlComando.Parameters.AddWithValue("@ClienteId", listaClientes.SelectedValue);
+                string consulta = "SELECT * FROM PEDIDO P INNER JOIN CLIENTE C ON C.ID=P.codCliente" +
+                    " WHERE C.ID=@ClienteId";
 
-                DataTable pedidosTabla = new DataTable();
+                SqlCommand sqlComando = new SqlCommand(consulta, miConexionSql);
 
-                miAdaptadorSql.Fill(pedidosTabla);
+                SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(sqlComando);
 
-                pedidosCliente.DisplayMemberPath = "fechaPedido";
-                pedidosCliente.SelectedValuePath = "Id";
-                pedidosCliente.ItemsSource = pedidosTabla.DefaultView;
+                using (miAdaptadorSql)
+                {
+                    sqlComando.Parameters.AddWithValue("@ClienteId", listaClientes.SelectedValue);
+
+                    DataTable pedidosTabla = new DataTable();
+
+                    miAdaptadorSql.Fill(pedidosTabla);
+
+                    pedidosCliente.DisplayMemberPath = "fechaPedido";
+                    pedidosCliente.SelectedValuePath = "Id";
+                    pedidosCliente.ItemsSource = pedidosTabla.DefaultView;
+                }
+            } catch (Exception error)
+            {
+                MessageBox.Show(error.ToString());
             }
         }
 
         private void MuestraTodosPedidos()
         {
-            //consulta de campo nuevo calculado
-            string consulta = "SELECT *, CONCAT(codCliente, ' ', fechaPedido, ' ', formaPago) AS INFOCOMPLETA FROM PEDIDO";
-
-            SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
-            using (miAdaptadorSql)
+            try
             {
-                DataTable pedidosTabla = new DataTable();
+                //consulta de campo nuevo calculado
+                string consulta = "SELECT *, CONCAT(codCliente, ' ', fechaPedido, ' ', formaPago) AS INFOCOMPLETA FROM PEDIDO";
 
-                miAdaptadorSql.Fill(pedidosTabla);
+                SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(consulta, miConexionSql);
+                using (miAdaptadorSql)
+                {
+                    DataTable pedidosTabla = new DataTable();
 
-                todosPedidos.DisplayMemberPath = "INFOCOMPLETA";
-                todosPedidos.SelectedValuePath = "Id";
-                todosPedidos.ItemsSource = pedidosTabla.DefaultView;
+                    miAdaptadorSql.Fill(pedidosTabla);
+
+                    todosPedidos.DisplayMemberPath = "INFOCOMPLETA";
+                    todosPedidos.SelectedValuePath = "Id";
+                    todosPedidos.ItemsSource = pedidosTabla.DefaultView;
+                }
+            } catch (Exception error)
+            {
+                MessageBox.Show(error.ToString());
             }
         }
 
@@ -113,17 +131,23 @@ namespace ConexionGestionPedidos
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //MessageBox.Show(todosPedidos.SelectedValue.ToString());
-            string consulta = "DELETE FROM PEDIDO WHERE ID = @PEDIDOID";
+            try
+            {
+                //MessageBox.Show(todosPedidos.SelectedValue.ToString());
+                string consulta = "DELETE FROM PEDIDO WHERE ID = @PEDIDOID";
 
-            SqlCommand miSqlCommand = new SqlCommand(consulta, miConexionSql);
-            miConexionSql.Open();
-            //especifica el parametro y de donde viene
-            miSqlCommand.Parameters.AddWithValue("@PEDIDOID", todosPedidos.SelectedValue);
-            //ejecuta consulta de accion delete
-            miSqlCommand.ExecuteNonQuery();
-            miConexionSql.Close();
-            MuestraTodosPedidos();
+                SqlCommand miSqlCommand = new SqlCommand(consulta, miConexionSql);
+                miConexionSql.Open();
+                //especifica el parametro y de donde viene
+                miSqlCommand.Parameters.AddWithValue("@PEDIDOID", todosPedidos.SelectedValue);
+                //ejecuta consulta de accion delete
+                miSqlCommand.ExecuteNonQuery();
+                miConexionSql.Close();
+                MuestraTodosPedidos();
+            } catch (Exception error)
+            {
+                MessageBox.Show(error.ToString());
+            }
         }
     }
 }
