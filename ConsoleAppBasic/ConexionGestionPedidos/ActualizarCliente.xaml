@@ -7,9 +7,10 @@
         mc:Ignorable="d"
         Title="ActualizarCliente" Height="450" Width="800">
     <Grid>
-        
-        <TextBox Name="cuadroActualiza" HorizontalAlignment="Left" Margin="133,161,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="243" Height="37" FontSize="20"/>
-        <Label Content="Nombre de Cliente: " Margin="110,240,424,156" FontSize="20"/>
+
+        <Label Content="Nombre de Cliente: " Margin="134,118,400,278" FontSize="20"/>
+        <TextBox Name="cuadroActualiza" HorizontalAlignment="Left" Margin="134,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="442" Height="37" FontSize="20"/>
+        <Button Content="Actualizar Cliente " HorizontalAlignment="Left" Margin="220,311,0,0" VerticalAlignment="Top" Height="51" Width="212" Background="#FFC8FEFF" BorderBrush="#FF5A99FF" Click="Button_Click"/>
 
     </Grid>
 </Window>

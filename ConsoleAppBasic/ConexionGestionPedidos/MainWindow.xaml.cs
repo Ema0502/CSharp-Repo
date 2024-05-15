@@ -200,7 +200,8 @@ namespace ConexionGestionPedidos
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            ActualizarCliente ventanaActualizarCliente = new ActualizarCliente();
+            int clienteId = (int)listaClientes.SelectedValue;
+            ActualizarCliente ventanaActualizarCliente = new ActualizarCliente(clienteId);
             ventanaActualizarCliente.Show();
 
             try

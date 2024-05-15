@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Data.SqlClient;
+using System.Data.Common;
+using System.Data;
+using System.Configuration;
 
 namespace ConexionGestionPedidos
 {
@@ -19,9 +24,37 @@ namespace ConexionGestionPedidos
     /// </summary>
     public partial class ActualizarCliente : Window
     {
-        public ActualizarCliente()
+        SqlConnection miConexionSql;
+        private int numId;
+
+        public ActualizarCliente(int parmID)
         {
             InitializeComponent();
+            numId = parmID;
+            string miConexion = ConfigurationManager.ConnectionStrings["ConexionGestionPedidos.Properties.Settings.GestionPedidosConnectionString"].ConnectionString;
+
+            miConexionSql = new SqlConnection(miConexion);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                string consulta = "UPDATE CLIENTE SET nombre = @nombre WHERE ID =", numId;
+
+                SqlCommand miSqlCommand = new SqlCommand(consulta, miConexionSql);
+                miConexionSql.Open();
+                //especifica el parametro y de donde viene
+                miSqlCommand.Parameters.AddWithValue("@nombre", cuadroActualiza.Text);
+
+                miSqlCommand.ExecuteNonQuery();
+                miConexionSql.Close();
+                MessageBox.Show("Cliente actualizado correctamente");
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.ToString());
+            }
         }
     }
 }
