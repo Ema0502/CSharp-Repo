@@ -40,16 +40,16 @@ namespace ConexionGestionPedidos
         {
             try
             {
-                string consulta = "UPDATE CLIENTE SET nombre = @nombre WHERE ID =", numId;
+                string consulta = "UPDATE CLIENTE SET nombre=@nombre WHERE Id=" + numId;
 
                 SqlCommand miSqlCommand = new SqlCommand(consulta, miConexionSql);
                 miConexionSql.Open();
-                //especifica el parametro y de donde viene
+
                 miSqlCommand.Parameters.AddWithValue("@nombre", cuadroActualiza.Text);
 
                 miSqlCommand.ExecuteNonQuery();
                 miConexionSql.Close();
-                MessageBox.Show("Cliente actualizado correctamente");
+                this.Close();
             }
             catch (Exception error)
             {

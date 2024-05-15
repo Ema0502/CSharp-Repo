@@ -202,7 +202,6 @@ namespace ConexionGestionPedidos
         {
             int clienteId = (int)listaClientes.SelectedValue;
             ActualizarCliente ventanaActualizarCliente = new ActualizarCliente(clienteId);
-            ventanaActualizarCliente.Show();
 
             try
             {
@@ -224,6 +223,16 @@ namespace ConexionGestionPedidos
             {
                 MessageBox.Show(error.ToString());
             }
+
+            ventanaActualizarCliente.ShowDialog();
+            MuestraClientes();
+
+            //alternativa, en el xaml de windows agregar Ativated = Window_Activated
+            //luego agregar la fn
+            //private void Window_Activated(object sender, EventArgs e)
+            //{
+            //    MuestraClientes();
+            //}
         }
     }
 }

@@ -7,7 +7,11 @@
       "RelativeMoniker": "D:0:0:{3FFB6F31-7582-4E47-8394-24733038D004}|ConexionGestionPedidos\\ConexionGestionPedidos.csproj|solutionrelative:conexiongestionpedidos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FFB6F31-7582-4E47-8394-24733038D004}|ConexionGestionPedidos\\ConexionGestionPedidos.csproj|d:\\soyhenry - cursada\\pildoras informaticas\\consoleappbasic\\conexiongestionpedidos\\actualizarcliente.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FFB6F31-7582-4E47-8394-24733038D004}|ConexionGestionPedidos\\ConexionGestionPedidos.csproj|D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\conexiongestionpedidos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FFB6F31-7582-4E47-8394-24733038D004}|ConexionGestionPedidos\\ConexionGestionPedidos.csproj|solutionrelative:conexiongestionpedidos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FFB6F31-7582-4E47-8394-24733038D004}|ConexionGestionPedidos\\ConexionGestionPedidos.csproj|D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\conexiongestionpedidos\\actualizarcliente.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FFB6F31-7582-4E47-8394-24733038D004}|ConexionGestionPedidos\\ConexionGestionPedidos.csproj|solutionrelative:conexiongestionpedidos\\actualizarcliente.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,8 +19,7 @@
       "RelativeMoniker": "D:0:0:{3FFB6F31-7582-4E47-8394-24733038D004}|ConexionGestionPedidos\\ConexionGestionPedidos.csproj|solutionrelative:conexiongestionpedidos\\actualizarcliente.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FFB6F31-7582-4E47-8394-24733038D004}|ConexionGestionPedidos\\ConexionGestionPedidos.csproj|D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\conexiongestionpedidos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3FFB6F31-7582-4E47-8394-24733038D004}|ConexionGestionPedidos\\ConexionGestionPedidos.csproj|solutionrelative:conexiongestionpedidos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_R2DQE0I/GestionPedidos/sa/SqlTable/dbo.cliente.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +41,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "dbo.cliente [Datos]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_R2DQE0I/GestionPedidos/sa/SqlTable/dbo.cliente.sql",
+              "ToolTip": "dbo.cliente [Datos]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-15T20:19:20.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ActualizarCliente.xaml.cs",
               "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\ConexionGestionPedidos\\ActualizarCliente.xaml.cs",
               "RelativeDocumentMoniker": "ConexionGestionPedidos\\ActualizarCliente.xaml.cs",
               "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\ConexionGestionPedidos\\ActualizarCliente.xaml.cs",
               "RelativeToolTip": "ConexionGestionPedidos\\ActualizarCliente.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAbAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwDwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T19:14:35.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ActualizarCliente.xaml",
               "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\ConexionGestionPedidos\\ActualizarCliente.xaml",
               "RelativeDocumentMoniker": "ConexionGestionPedidos\\ActualizarCliente.xaml",
@@ -63,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\ConexionGestionPedidos\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ConexionGestionPedidos\\MainWindow.xaml",
@@ -81,7 +94,7 @@
               "RelativeDocumentMoniker": "ConexionGestionPedidos\\MainWindow.xaml.cs",
               "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\ConexionGestionPedidos\\MainWindow.xaml.cs",
               "RelativeToolTip": "ConexionGestionPedidos\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAM4AAAAAAAAAAAAQwOUAAAAAAAAA",
+              "ViewState": "AQIAANgAAAAAAAAAAAAQwOYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T23:17:34.264Z",
               "EditorCaption": ""
