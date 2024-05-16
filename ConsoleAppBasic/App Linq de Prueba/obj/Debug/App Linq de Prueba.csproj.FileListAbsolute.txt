@@ -1,0 +1,7 @@
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\App Linq de Prueba\bin\Debug\App Linq de Prueba.exe.config
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\App Linq de Prueba\bin\Debug\App Linq de Prueba.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\App Linq de Prueba\bin\Debug\App Linq de Prueba.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\App Linq de Prueba\obj\Debug\App Linq de Prueba.csproj.AssemblyReference.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\App Linq de Prueba\obj\Debug\App Linq de Prueba.csproj.CoreCompileInputs.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\App Linq de Prueba\obj\Debug\App Linq de Prueba.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\App Linq de Prueba\obj\Debug\App Linq de Prueba.pdb
