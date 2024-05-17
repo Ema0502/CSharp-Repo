@@ -96,5 +96,15 @@ namespace Linq_con_Objetos
                 empleadoSupremoF.ObtenerDatosEmpleado();
             }
         }
+
+        public void OrdenarEmpleados()
+        {
+            IEnumerable<Empleado> listaEmpleadosOrdenados = from empleado in listaEmpleados orderby empleado.Nombre select empleado;
+
+            foreach (Empleado empleado in listaEmpleadosOrdenados)
+            {
+                empleado.ObtenerDatosEmpleado();
+            } 
+        }
     }
 }

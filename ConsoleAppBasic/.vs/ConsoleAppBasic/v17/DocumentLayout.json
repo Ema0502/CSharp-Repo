@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{44D03322-1307-4012-8D3A-471BDDADE7D7}|Linq con Objetos\\Linq con Objetos.csproj|solutionrelative:linq con objetos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44D03322-1307-4012-8D3A-471BDDADE7D7}|Linq con Objetos\\Linq con Objetos.csproj|d:\\soyhenry - cursada\\pildoras informaticas\\consoleappbasic\\linq con objetos\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44D03322-1307-4012-8D3A-471BDDADE7D7}|Linq con Objetos\\Linq con Objetos.csproj|solutionrelative:linq con objetos\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44D03322-1307-4012-8D3A-471BDDADE7D7}|Linq con Objetos\\Linq con Objetos.csproj|d:\\soyhenry - cursada\\pildoras informaticas\\consoleappbasic\\linq con objetos\\controlempresasempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44D03322-1307-4012-8D3A-471BDDADE7D7}|Linq con Objetos\\Linq con Objetos.csproj|D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\linq con objetos\\controlempresasempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44D03322-1307-4012-8D3A-471BDDADE7D7}|Linq con Objetos\\Linq con Objetos.csproj|solutionrelative:linq con objetos\\controlempresasempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44D03322-1307-4012-8D3A-471BDDADE7D7}|Linq con Objetos\\Linq con Objetos.csproj|d:\\soyhenry - cursada\\pildoras informaticas\\consoleappbasic\\linq con objetos\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44D03322-1307-4012-8D3A-471BDDADE7D7}|Linq con Objetos\\Linq con Objetos.csproj|D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\linq con objetos\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D03322-1307-4012-8D3A-471BDDADE7D7}|Linq con Objetos\\Linq con Objetos.csproj|solutionrelative:linq con objetos\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44D03322-1307-4012-8D3A-471BDDADE7D7}|Linq con Objetos\\Linq con Objetos.csproj|D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\linq con objetos\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44D03322-1307-4012-8D3A-471BDDADE7D7}|Linq con Objetos\\Linq con Objetos.csproj|solutionrelative:linq con objetos\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,20 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ControlEmpresasEmpleados.cs",
               "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\Linq con Objetos\\ControlEmpresasEmpleados.cs",
               "RelativeDocumentMoniker": "Linq con Objetos\\ControlEmpresasEmpleados.cs",
               "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\Linq con Objetos\\ControlEmpresasEmpleados.cs",
               "RelativeToolTip": "Linq con Objetos\\ControlEmpresasEmpleados.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAwwFsAAAB1AAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAUwGMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T15:37:13.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Empleado.cs",
               "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\Linq con Objetos\\Empleado.cs",
               "RelativeDocumentMoniker": "Linq con Objetos\\Empleado.cs",
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Linq con Objetos\\Empleado.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T15:29:40.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T15:29:40.735Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "Linq con Objetos\\Empresa.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T15:26:03.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T15:26:03.369Z"
             },
             {
               "$type": "Document",
