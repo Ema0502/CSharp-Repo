@@ -11,7 +11,11 @@ namespace Linq_con_Objetos
         static void Main(string[] args)
         {
             ControlEmpresasEmpleados CE = new ControlEmpresasEmpleados();
-            CE.ObtenerEmpleadosId(2);
+            Console.WriteLine("Bienvenido");
+            Console.WriteLine("Ingrese el id de una empresa para buscar sus empleados disponibles");
+            string valorBusqueda = Console.ReadLine();
+            int idConvertido = Convert.ToInt32(valorBusqueda);
+            CE.ObtenerEmpleadosId(idConvertido);
         }
     }
 }
