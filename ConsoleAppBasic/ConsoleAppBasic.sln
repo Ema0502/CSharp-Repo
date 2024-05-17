@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioBtn", "RadioBtn\RadioB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConexionGestionPedidos", "ConexionGestionPedidos\ConexionGestionPedidos.csproj", "{3FFB6F31-7582-4E47-8394-24733038D004}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App Linq de Prueba", "App Linq de Prueba\App Linq de Prueba.csproj", "{215E315A-EF5F-4FA6-BB67-20D9F5F15A60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq con Objetos", "Linq con Objetos\Linq con Objetos.csproj", "{44D03322-1307-4012-8D3A-471BDDADE7D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{3FFB6F31-7582-4E47-8394-24733038D004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FFB6F31-7582-4E47-8394-24733038D004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FFB6F31-7582-4E47-8394-24733038D004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215E315A-EF5F-4FA6-BB67-20D9F5F15A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215E315A-EF5F-4FA6-BB67-20D9F5F15A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215E315A-EF5F-4FA6-BB67-20D9F5F15A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215E315A-EF5F-4FA6-BB67-20D9F5F15A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D03322-1307-4012-8D3A-471BDDADE7D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D03322-1307-4012-8D3A-471BDDADE7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D03322-1307-4012-8D3A-471BDDADE7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D03322-1307-4012-8D3A-471BDDADE7D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

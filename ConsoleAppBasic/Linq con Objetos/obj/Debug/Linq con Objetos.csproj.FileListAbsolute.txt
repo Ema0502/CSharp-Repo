@@ -1,0 +1,7 @@
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Linq con Objetos\bin\Debug\Linq con Objetos.exe.config
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Linq con Objetos\bin\Debug\Linq con Objetos.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Linq con Objetos\bin\Debug\Linq con Objetos.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Linq con Objetos\obj\Debug\Linq con Objetos.csproj.AssemblyReference.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Linq con Objetos\obj\Debug\Linq con Objetos.csproj.CoreCompileInputs.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Linq con Objetos\obj\Debug\Linq con Objetos.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\Linq con Objetos\obj\Debug\Linq con Objetos.pdb
