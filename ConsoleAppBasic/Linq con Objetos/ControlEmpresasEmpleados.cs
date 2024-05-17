@@ -107,15 +107,23 @@ namespace Linq_con_Objetos
             } 
         }
 
-        public void ObtenerEmpleadosGugul()
+        public void ObtenerEmpleadosId(int id)
         {
-            IEnumerable<Empleado> listaEmpleadosGugul = from empleado in listaEmpleados join empresa in listaEmpresas 
-                                                        on empleado.EmpesaId equals empresa.Id //equivalencia en la busqueda, fk = id empresa
-                                                        where empresa.Nombre == "Gugul" select empleado;
-
-            foreach (Empleado empleado1 in listaEmpleadosGugul)
+            try
             {
-                empleado1.ObtenerDatosEmpleado();
+                IEnumerable<Empleado> listaEmpleadosGugul = from empleado in listaEmpleados
+                                                            join empresa in listaEmpresas
+                                                            on empleado.EmpesaId equals empresa.Id //equivalencia en la busqueda, fk = id empresa
+                                                            where empresa.Id == id
+                                                            select empleado;
+
+                foreach (Empleado empleado1 in listaEmpleadosGugul)
+                {
+                    empleado1.ObtenerDatosEmpleado();
+                }
+            } catch (Exception error)
+            {
+                Console.WriteLine(error.Message);
             }
         }
     }

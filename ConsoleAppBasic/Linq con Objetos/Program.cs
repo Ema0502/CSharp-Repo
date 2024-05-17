@@ -11,7 +11,7 @@ namespace Linq_con_Objetos
         static void Main(string[] args)
         {
             ControlEmpresasEmpleados CE = new ControlEmpresasEmpleados();
-            CE.ObtenerEmpleadosGugul();
+            CE.ObtenerEmpleadosId(2);
         }
     }
 }
