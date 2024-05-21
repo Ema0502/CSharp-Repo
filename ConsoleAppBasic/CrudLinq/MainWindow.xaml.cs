@@ -32,7 +32,8 @@ namespace CrudLinq
             dataContext = new DataClasses1DataContext(miConexion);
 
             //InsertaEmpresas();
-            InsertaEmpleados();
+            //InsertaEmpleados();
+            InsertaCargos();
         }
         public void InsertaEmpresas()
         {
@@ -68,6 +69,15 @@ namespace CrudLinq
             dataContext.SubmitChanges();
 
             Principal.ItemsSource = dataContext.Empleado;
+        }
+
+        public void InsertaCargos()
+        {
+            dataContext.Cargo.InsertOnSubmit(new Cargo { NombreCargo = "Director/a"});
+            dataContext.Cargo.InsertOnSubmit(new Cargo { NombreCargo = "Contador" });
+            dataContext.Cargo.InsertOnSubmit(new Cargo { NombreCargo = "Administrativo/a" });
+            dataContext.SubmitChanges();
+            Principal.ItemsSource = dataContext.Cargo;
         }
     }
 }
