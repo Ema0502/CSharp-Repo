@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|solutionrelative:crudlinq\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|d:\\soyhenry - cursada\\pildoras informaticas\\consoleappbasic\\crudlinq\\gestionpedidosdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "AbsoluteMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\crudlinq\\gestionpedidosdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
       "RelativeMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|solutionrelative:crudlinq\\gestionpedidosdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
     },
     {
@@ -45,8 +45,7 @@
               "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\GestionPedidosDataSet.xsd",
               "RelativeToolTip": "CrudLinq\\GestionPedidosDataSet.xsd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2024-05-22T17:29:46.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T17:29:46.662Z"
             },
             {
               "$type": "Document",
@@ -57,8 +56,7 @@
               "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\DataClasses1.dbml",
               "RelativeToolTip": "CrudLinq\\DataClasses1.dbml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
-              "WhenOpened": "2024-05-21T23:50:50.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T23:50:50.473Z"
             },
             {
               "$type": "Document",
@@ -69,8 +67,7 @@
               "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\MainWindow.xaml",
               "RelativeToolTip": "CrudLinq\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-20T20:53:21.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T20:53:21.035Z"
             },
             {
               "$type": "Document",
@@ -80,7 +77,7 @@
               "RelativeDocumentMoniker": "CrudLinq\\MainWindow.xaml.cs",
               "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\MainWindow.xaml.cs",
               "RelativeToolTip": "CrudLinq\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAcwHkAAAAAAAAA",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAcwIgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T20:53:20.791Z",
               "EditorCaption": ""

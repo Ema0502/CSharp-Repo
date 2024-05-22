@@ -34,7 +34,8 @@ namespace CrudLinq
             //InsertaEmpresas();
             //InsertaEmpleados();
             //InsertaCargos();
-            InsertaEmpleadoCargo();
+            //InsertaEmpleadoCargo();
+            ActualizaEmpleado();
         }
         public void InsertaEmpresas()
         {
@@ -125,6 +126,15 @@ namespace CrudLinq
 
             dataContext.SubmitChanges();
             Principal.ItemsSource = dataContext.CargoEmpleado;
+        }
+
+        public void ActualizaEmpleado()
+        {
+            //ejemplo para actualizar informacion de registro
+            Empleado lionelMessi = dataContext.Empleado.First((empleado) => empleado.Nombre.Equals("Lio"));
+            lionelMessi.Nombre = "Lionel Andres";
+            dataContext.SubmitChanges();
+            Principal.ItemsSource = dataContext.Empleado;
         }
     }
 }
