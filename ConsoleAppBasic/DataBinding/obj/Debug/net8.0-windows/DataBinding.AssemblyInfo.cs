@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataBinding")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+413a24f05a1e02f34032ef17a1b9beed09ac8b58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d112c7d33207af7937d9708f6998bc067b3e7802")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataBinding")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataBinding")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
