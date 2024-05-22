@@ -7,14 +7,15 @@
       "RelativeMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|solutionrelative:crudlinq\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_R2DQE0I/GestionPedidos/sa/SqlTable/dbo.Cargo.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|d:\\soyhenry - cursada\\pildoras informaticas\\consoleappbasic\\crudlinq\\gestionpedidosdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|solutionrelative:crudlinq\\gestionpedidosdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\crudlinq\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|solutionrelative:crudlinq\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|d:\\soyhenry - cursada\\pildoras informaticas\\consoleappbasic\\crudlinq\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "AbsoluteMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\crudlinq\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
       "RelativeMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|solutionrelative:crudlinq\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
     }
   ],
@@ -38,11 +39,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "dbo.Cargo [Datos]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_R2DQE0I/GestionPedidos/sa/SqlTable/dbo.Cargo.sql",
-              "ToolTip": "dbo.Cargo [Datos]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-22T00:06:56.492Z",
+              "Title": "GestionPedidosDataSet.xsd",
+              "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\GestionPedidosDataSet.xsd",
+              "RelativeDocumentMoniker": "CrudLinq\\GestionPedidosDataSet.xsd",
+              "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\GestionPedidosDataSet.xsd",
+              "RelativeToolTip": "CrudLinq\\GestionPedidosDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-05-22T17:29:46.662Z",
               "EditorCaption": ""
             },
             {
@@ -77,7 +80,7 @@
               "RelativeDocumentMoniker": "CrudLinq\\MainWindow.xaml.cs",
               "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\MainWindow.xaml.cs",
               "RelativeToolTip": "CrudLinq\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAwwGIAAAAFAAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAcwHkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T20:53:20.791Z",
               "EditorCaption": ""

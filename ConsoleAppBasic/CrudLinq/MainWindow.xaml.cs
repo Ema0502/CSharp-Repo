@@ -83,15 +83,45 @@ namespace CrudLinq
 
         public void InsertaEmpleadoCargo()
         {
-            Empleado empleadoLio = dataContext.Empleado.First((empleado) => empleado.Nombre.Equals("Lio"));
-            Empleado empleadoEden = dataContext.Empleado.First((empleado) => empleado.Nombre.Equals("Eden"));
+            
+            List<CargoEmpleado> listaCargoEmpleados = new List<CargoEmpleado>();
+            //se crean los empleados y se asignan los cargos
+            listaCargoEmpleados.Add( new CargoEmpleado { 
+                Empleado = dataContext.Empleado.First((empleado) => empleado.Nombre.Equals("Lio")),
+                Cargo = dataContext.Cargo.First((cargo) => cargo.NombreCargo.Equals("Director/a"))
+            });
 
-            Cargo cargoDirector = dataContext.Cargo.First((cargo) => cargo.NombreCargo.Equals("Director/a"));
-            Cargo cargoAdministrativo = dataContext.Cargo.First((cargo) => cargo.NombreCargo.Equals("Administrativo/a"));
+            listaCargoEmpleados.Add(new CargoEmpleado
+            {
+                Empleado = dataContext.Empleado.First((empleado) => empleado.Nombre.Equals("Eden")),
+                Cargo = dataContext.Cargo.First((cargo) => cargo.NombreCargo.Equals("Gerente"))
+            });
 
-            CargoEmpleado cargoLio = new CargoEmpleado();
-            cargoLio.Empleado = empleadoLio;
-            cargoLio.CargoId = cargoDirector.Id;
+            listaCargoEmpleados.Add(new CargoEmpleado
+            {
+                Empleado = dataContext.Empleado.First((empleado) => empleado.Nombre.Equals("Isao")),
+                Cargo = dataContext.Cargo.First((cargo) => cargo.NombreCargo.Equals("Administrativo/a"))
+            });
+
+            listaCargoEmpleados.Add(new CargoEmpleado
+            {
+                Empleado = dataContext.Empleado.First((empleado) => empleado.Nombre.Equals("Ana")),
+                Cargo = dataContext.Cargo.First((cargo) => cargo.NombreCargo.Equals("Administrativo/a"))
+            });
+
+            listaCargoEmpleados.Add(new CargoEmpleado
+            {
+                Empleado = dataContext.Empleado.First((empleado) => empleado.Nombre.Equals("Wei")),
+                Cargo = dataContext.Cargo.First((cargo) => cargo.NombreCargo.Equals("Administrativo/a"))
+            });
+
+            listaCargoEmpleados.Add(new CargoEmpleado
+            {
+                Empleado = dataContext.Empleado.First((empleado) => empleado.Nombre.Equals("Maria")),
+                Cargo = dataContext.Cargo.First((cargo) => cargo.NombreCargo.Equals("Administrativo/a"))
+            });
+
+            dataContext.CargoEmpleado.InsertAllOnSubmit(listaCargoEmpleados);
 
             dataContext.SubmitChanges();
             Principal.ItemsSource = dataContext.CargoEmpleado;
