@@ -33,7 +33,8 @@ namespace CrudLinq
 
             //InsertaEmpresas();
             //InsertaEmpleados();
-            InsertaCargos();
+            //InsertaCargos();
+            InsertaEmpleadoCargo();
         }
         public void InsertaEmpresas()
         {
@@ -74,10 +75,26 @@ namespace CrudLinq
         public void InsertaCargos()
         {
             dataContext.Cargo.InsertOnSubmit(new Cargo { NombreCargo = "Director/a"});
-            dataContext.Cargo.InsertOnSubmit(new Cargo { NombreCargo = "Contador" });
+            dataContext.Cargo.InsertOnSubmit(new Cargo { NombreCargo = "Gerente" });
             dataContext.Cargo.InsertOnSubmit(new Cargo { NombreCargo = "Administrativo/a" });
             dataContext.SubmitChanges();
             Principal.ItemsSource = dataContext.Cargo;
+        }
+
+        public void InsertaEmpleadoCargo()
+        {
+            Empleado empleadoLio = dataContext.Empleado.First((empleado) => empleado.Nombre.Equals("Lio"));
+            Empleado empleadoEden = dataContext.Empleado.First((empleado) => empleado.Nombre.Equals("Eden"));
+
+            Cargo cargoDirector = dataContext.Cargo.First((cargo) => cargo.NombreCargo.Equals("Director/a"));
+            Cargo cargoAdministrativo = dataContext.Cargo.First((cargo) => cargo.NombreCargo.Equals("Administrativo/a"));
+
+            CargoEmpleado cargoLio = new CargoEmpleado();
+            cargoLio.Empleado = empleadoLio;
+            cargoLio.CargoId = cargoDirector.Id;
+
+            dataContext.SubmitChanges();
+            Principal.ItemsSource = dataContext.CargoEmpleado;
         }
     }
 }
