@@ -1,0 +1,7 @@
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreards\bin\Debug\EjemploConsolaThreards.exe.config
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreards\bin\Debug\EjemploConsolaThreards.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreards\bin\Debug\EjemploConsolaThreards.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreards\obj\Debug\EjemploConsolaThreards.csproj.AssemblyReference.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreards\obj\Debug\EjemploConsolaThreards.csproj.CoreCompileInputs.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreards\obj\Debug\EjemploConsolaThreards.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreards\obj\Debug\EjemploConsolaThreards.pdb

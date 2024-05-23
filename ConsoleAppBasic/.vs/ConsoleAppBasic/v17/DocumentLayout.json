@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|d:\\soyhenry - cursada\\pildoras informaticas\\consoleappbasic\\crudlinq\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|solutionrelative:crudlinq\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\crudlinq\\gestionpedidosdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|solutionrelative:crudlinq\\gestionpedidosdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\crudlinq\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|solutionrelative:crudlinq\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\crudlinq\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
-      "RelativeMoniker": "D:0:0:{66641F30-0364-4F17-8C68-762521457CF1}|CrudLinq\\CrudLinq.csproj|solutionrelative:crudlinq\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+      "AbsoluteMoniker": "D:0:0:{7C2A657E-9E6A-44D1-A715-E5A058CD9F7D}|EjemploConsolaThreards\\EjemploConsolaThreards.csproj|d:\\soyhenry - cursada\\pildoras informaticas\\consoleappbasic\\ejemploconsolathreards\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C2A657E-9E6A-44D1-A715-E5A058CD9F7D}|EjemploConsolaThreards\\EjemploConsolaThreards.csproj|solutionrelative:ejemploconsolathreards\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,48 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GestionPedidosDataSet.xsd",
-              "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\GestionPedidosDataSet.xsd",
-              "RelativeDocumentMoniker": "CrudLinq\\GestionPedidosDataSet.xsd",
-              "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\GestionPedidosDataSet.xsd",
-              "RelativeToolTip": "CrudLinq\\GestionPedidosDataSet.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2024-05-22T17:29:46.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataClasses1.dbml",
-              "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\DataClasses1.dbml",
-              "RelativeDocumentMoniker": "CrudLinq\\DataClasses1.dbml",
-              "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\DataClasses1.dbml",
-              "RelativeToolTip": "CrudLinq\\DataClasses1.dbml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
-              "WhenOpened": "2024-05-21T23:50:50.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "CrudLinq\\MainWindow.xaml",
-              "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\MainWindow.xaml",
-              "RelativeToolTip": "CrudLinq\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-20T20:53:21.035Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "CrudLinq\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\CrudLinq\\MainWindow.xaml.cs",
-              "RelativeToolTip": "CrudLinq\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAAAJUAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\EjemploConsolaThreards\\Program.cs",
+              "RelativeDocumentMoniker": "EjemploConsolaThreards\\Program.cs",
+              "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\EjemploConsolaThreards\\Program.cs",
+              "RelativeToolTip": "EjemploConsolaThreards\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:53:20.791Z",
+              "WhenOpened": "2024-05-22T19:50:26.567Z",
               "EditorCaption": ""
             }
           ]
