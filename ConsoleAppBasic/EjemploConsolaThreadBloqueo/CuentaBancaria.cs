@@ -9,6 +9,7 @@ namespace EjemploConsolaThreadBloqueo
 {
     internal class CuentaBancaria
     {
+        private object _bloqueoSaldoPositivo = new object();
         double Saldo {  get; set; }
         public CuentaBancaria(double saldo)
         {
@@ -19,13 +20,24 @@ namespace EjemploConsolaThreadBloqueo
         {
             if ((this.Saldo - cantidad) < 0)
             {
-                Console.WriteLine($"Mis disculpas, el saldo actual es de {this.Saldo}");
+                Console.WriteLine($"Mis disculpas, el saldo actual es de {this.Saldo}. Hilo: {Thread.CurrentThread.Name}");
                 return this.Saldo;
             }
 
-            Console.WriteLine("Retirado: {0}, quedan {1} en la cuenta", cantidad, this.Saldo);
-            Saldo -= cantidad;
+            lock (_bloqueoSaldoPositivo)
+            {
+                if (this.Saldo >= cantidad)
+                {
+                    Console.WriteLine("Retirado: {0}, quedan {1} en la cuenta {2}", cantidad, this.Saldo, Thread.CurrentThread.Name);
+                    Saldo -= cantidad;
+                }
+            }
             return Saldo;
+        }
+
+        public void RetirarDineroInicial()
+        {
+            this.RetirarEfectivo(500);
         }
     }
 }
