@@ -1,0 +1,7 @@
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadBloqueo\bin\Debug\EjemploConsolaThreadBloqueo.exe.config
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadBloqueo\bin\Debug\EjemploConsolaThreadBloqueo.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadBloqueo\bin\Debug\EjemploConsolaThreadBloqueo.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadBloqueo\obj\Debug\EjemploConsolaThreadBloqueo.csproj.AssemblyReference.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadBloqueo\obj\Debug\EjemploConsolaThreadBloqueo.csproj.CoreCompileInputs.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadBloqueo\obj\Debug\EjemploConsolaThreadBloqueo.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadBloqueo\obj\Debug\EjemploConsolaThreadBloqueo.pdb

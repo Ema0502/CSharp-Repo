@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D8C5ED03-7169-467A-93EE-54169540F2C0}|EjemploConsolaThreadBloqueo\\EjemploConsolaThreadBloqueo.csproj|d:\\soyhenry - cursada\\pildoras informaticas\\consoleappbasic\\ejemploconsolathreadbloqueo\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C5ED03-7169-467A-93EE-54169540F2C0}|EjemploConsolaThreadBloqueo\\EjemploConsolaThreadBloqueo.csproj|solutionrelative:ejemploconsolathreadbloqueo\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C5ED03-7169-467A-93EE-54169540F2C0}|EjemploConsolaThreadBloqueo\\EjemploConsolaThreadBloqueo.csproj|d:\\soyhenry - cursada\\pildoras informaticas\\consoleappbasic\\ejemploconsolathreadbloqueo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C5ED03-7169-467A-93EE-54169540F2C0}|EjemploConsolaThreadBloqueo\\EjemploConsolaThreadBloqueo.csproj|solutionrelative:ejemploconsolathreadbloqueo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C2A657E-9E6A-44D1-A715-E5A058CD9F7D}|EjemploConsolaThreards\\EjemploConsolaThreards.csproj|d:\\soyhenry - cursada\\pildoras informaticas\\consoleappbasic\\ejemploconsolathreards\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C2A657E-9E6A-44D1-A715-E5A058CD9F7D}|EjemploConsolaThreards\\EjemploConsolaThreards.csproj|solutionrelative:ejemploconsolathreards\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,6 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CuentaBancaria.cs",
+              "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\EjemploConsolaThreadBloqueo\\CuentaBancaria.cs",
+              "RelativeDocumentMoniker": "EjemploConsolaThreadBloqueo\\CuentaBancaria.cs",
+              "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\EjemploConsolaThreadBloqueo\\CuentaBancaria.cs",
+              "RelativeToolTip": "EjemploConsolaThreadBloqueo\\CuentaBancaria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:46:45.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\EjemploConsolaThreadBloqueo\\Program.cs",
+              "RelativeDocumentMoniker": "EjemploConsolaThreadBloqueo\\Program.cs",
+              "ToolTip": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\EjemploConsolaThreadBloqueo\\Program.cs",
+              "RelativeToolTip": "EjemploConsolaThreadBloqueo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:45:53.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SoyHenry - Cursada\\Pildoras Informaticas\\ConsoleAppBasic\\EjemploConsolaThreards\\Program.cs",
               "RelativeDocumentMoniker": "EjemploConsolaThreards\\Program.cs",
