@@ -1,0 +1,7 @@
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadCondicion\obj\Debug\EjemploConsolaThreadCondicion.csproj.AssemblyReference.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadCondicion\obj\Debug\EjemploConsolaThreadCondicion.csproj.CoreCompileInputs.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadCondicion\bin\Debug\EjemploConsolaThreadCondicion.exe.config
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadCondicion\bin\Debug\EjemploConsolaThreadCondicion.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadCondicion\bin\Debug\EjemploConsolaThreadCondicion.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadCondicion\obj\Debug\EjemploConsolaThreadCondicion.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\EjemploConsolaThreadCondicion\obj\Debug\EjemploConsolaThreadCondicion.pdb
