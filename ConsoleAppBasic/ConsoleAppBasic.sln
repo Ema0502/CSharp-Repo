@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolExample", "Thread
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTaskExample", "ThreadTaskExample\ThreadTaskExample.csproj", "{6FBCD027-E481-4DE0-970D-B19336477BAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCancelationToken", "TaskCancelationToken\TaskCancelationToken.csproj", "{9F1CB7FB-244B-47FD-94C6-8E94E523BF30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{6FBCD027-E481-4DE0-970D-B19336477BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FBCD027-E481-4DE0-970D-B19336477BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FBCD027-E481-4DE0-970D-B19336477BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F1CB7FB-244B-47FD-94C6-8E94E523BF30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1CB7FB-244B-47FD-94C6-8E94E523BF30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1CB7FB-244B-47FD-94C6-8E94E523BF30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1CB7FB-244B-47FD-94C6-8E94E523BF30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

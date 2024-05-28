@@ -1,0 +1,7 @@
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\TaskCancelationToken\bin\Debug\TaskCancelationToken.exe.config
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\TaskCancelationToken\bin\Debug\TaskCancelationToken.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\TaskCancelationToken\bin\Debug\TaskCancelationToken.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\TaskCancelationToken\obj\Debug\TaskCancelationToken.csproj.AssemblyReference.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\TaskCancelationToken\obj\Debug\TaskCancelationToken.csproj.CoreCompileInputs.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\TaskCancelationToken\obj\Debug\TaskCancelationToken.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\TaskCancelationToken\obj\Debug\TaskCancelationToken.pdb
