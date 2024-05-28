@@ -1,0 +1,7 @@
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ThreadPoolExample\bin\Debug\ThreadPoolExample.exe.config
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ThreadPoolExample\bin\Debug\ThreadPoolExample.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ThreadPoolExample\bin\Debug\ThreadPoolExample.pdb
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ThreadPoolExample\obj\Debug\ThreadPoolExample.csproj.AssemblyReference.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ThreadPoolExample\obj\Debug\ThreadPoolExample.csproj.CoreCompileInputs.cache
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ThreadPoolExample\obj\Debug\ThreadPoolExample.exe
+D:\SoyHenry - Cursada\Pildoras Informaticas\ConsoleAppBasic\ThreadPoolExample\obj\Debug\ThreadPoolExample.pdb
